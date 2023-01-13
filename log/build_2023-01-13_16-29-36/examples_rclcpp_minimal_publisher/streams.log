@@ -1,0 +1,88 @@
+[0.055s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher
+[0.551s] -- The C compiler identification is GNU 9.4.0
+[0.551s] -- The CXX compiler identification is GNU 9.4.0
+[0.551s] -- Check for working C compiler: /usr/bin/cc
+[0.551s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.551s] -- Detecting C compiler ABI info
+[0.551s] -- Detecting C compiler ABI info - done
+[0.551s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.552s] -- Check for working CXX compiler: /usr/bin/c++
+[0.627s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.628s] -- Detecting CXX compiler ABI info
+[0.752s] -- Detecting CXX compiler ABI info - done
+[0.774s] -- Detecting CXX compile features
+[0.782s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.831s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.831s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.193s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.272s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.422s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.470s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.750s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.903s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.906s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.907s] -- Looking for pthread.h
+[2.041s] -- Looking for pthread.h - found
+[2.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.190s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.191s] -- Looking for pthread_create in pthreads
+[2.277s] -- Looking for pthread_create in pthreads - not found
+[2.280s] -- Looking for pthread_create in pthread
+[2.387s] -- Looking for pthread_create in pthread - found
+[2.390s] -- Found Threads: TRUE  
+[2.703s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.858s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.858s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.858s] -- Configured cppcheck include dirs: 
+[2.858s] -- Configured cppcheck exclude dirs and/or files: 
+[2.859s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.859s] -- Configured cpplint exclude dirs and/or files: 
+[2.859s] -- Added test 'lint_cmake' to check CMake code style
+[2.859s] -- Added test 'uncrustify' to check C / C++ code style
+[2.859s] -- Configured uncrustify additional arguments: 
+[2.860s] -- Added test 'xmllint' to check XML markup files
+[2.860s] -- Configuring done
+[2.884s] -- Generating done
+[2.884s] -- Build files have been written to: /home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher
+[2.950s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher
+[2.956s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[3.078s] [35m[1mScanning dependencies of target publisher_lambda[0m
+[3.094s] [35m[1mScanning dependencies of target publisher_not_composable[0m
+[3.109s] [35m[1mScanning dependencies of target publisher_member_function[0m
+[3.184s] [ 16%] [32mBuilding CXX object CMakeFiles/publisher_lambda.dir/lambda.cpp.o[0m
+[3.192s] [ 33%] [32mBuilding CXX object CMakeFiles/publisher_not_composable.dir/not_composable.cpp.o[0m
+[3.209s] [ 50%] [32mBuilding CXX object CMakeFiles/publisher_member_function.dir/member_function.cpp.o[0m
+[15.422s] [ 66%] [32m[1mLinking CXX executable publisher_lambda[0m
+[16.103s] [ 66%] Built target publisher_lambda
+[16.694s] [ 83%] [32m[1mLinking CXX executable publisher_not_composable[0m
+[17.087s] [ 83%] Built target publisher_not_composable
+[17.672s] [100%] [32m[1mLinking CXX executable publisher_member_function[0m
+[18.141s] [100%] Built target publisher_member_function
+[19.491s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher -- -j12 -l12
+[19.755s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher
+[19.838s] -- Install configuration: ""
+[19.839s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda
+[19.839s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_lambda" to ""
+[19.839s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function
+[19.839s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_member_function" to ""
+[19.839s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable
+[19.840s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/lib/examples_rclcpp_minimal_publisher/publisher_not_composable" to ""
+[19.840s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_publisher
+[19.840s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_publisher
+[19.840s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.sh
+[19.841s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/ament_prefix_path.dsv
+[19.841s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.sh
+[19.841s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/environment/path.dsv
+[19.841s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.bash
+[19.842s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.sh
+[19.842s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.zsh
+[19.842s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/local_setup.dsv
+[19.842s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.dsv
+[19.842s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/ament_index/resource_index/packages/examples_rclcpp_minimal_publisher
+[19.843s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig.cmake
+[19.843s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/cmake/examples_rclcpp_minimal_publisherConfig-version.cmake
+[19.843s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_publisher/share/examples_rclcpp_minimal_publisher/package.xml
+[21.006s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_publisher

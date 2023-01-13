@@ -1,0 +1,96 @@
+[0.057s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client
+[0.551s] -- The C compiler identification is GNU 9.4.0
+[0.551s] -- The CXX compiler identification is GNU 9.4.0
+[0.552s] -- Check for working C compiler: /usr/bin/cc
+[0.552s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.552s] -- Detecting C compiler ABI info
+[0.552s] -- Detecting C compiler ABI info - done
+[0.552s] -- Detecting C compile features
+[0.552s] -- Detecting C compile features - done
+[0.553s] -- Check for working CXX compiler: /usr/bin/c++
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.630s] -- Detecting CXX compiler ABI info
+[0.754s] -- Detecting CXX compiler ABI info - done
+[0.780s] -- Detecting CXX compile features
+[0.781s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.821s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.822s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.186s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.243s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.357s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.407s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.569s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.845s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.919s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.922s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.923s] -- Looking for pthread.h
+[2.069s] -- Looking for pthread.h - found
+[2.070s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.217s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.217s] -- Looking for pthread_create in pthreads
+[2.303s] -- Looking for pthread_create in pthreads - not found
+[2.303s] -- Looking for pthread_create in pthread
+[2.415s] -- Looking for pthread_create in pthread - found
+[2.417s] -- Found Threads: TRUE  
+[2.695s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[2.770s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.920s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.920s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.920s] -- Configured cppcheck include dirs: 
+[2.920s] -- Configured cppcheck exclude dirs and/or files: 
+[2.921s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.921s] -- Configured cpplint exclude dirs and/or files: 
+[2.923s] -- Added test 'lint_cmake' to check CMake code style
+[2.930s] -- Added test 'uncrustify' to check C / C++ code style
+[2.930s] -- Configured uncrustify additional arguments: 
+[2.930s] -- Added test 'xmllint' to check XML markup files
+[2.933s] -- Configuring done
+[2.993s] -- Generating done
+[2.997s] -- Build files have been written to: /home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client
+[3.837s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client
+[3.839s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client -- -j12 -l12
+[4.131s] [35m[1mScanning dependencies of target action_client_not_composable_with_cancel[0m
+[4.135s] [35m[1mScanning dependencies of target action_client_not_composable[0m
+[4.172s] [35m[1mScanning dependencies of target action_client_not_composable_with_feedback[0m
+[4.184s] [35m[1mScanning dependencies of target action_client_member_functions[0m
+[4.402s] [ 12%] [32mBuilding CXX object CMakeFiles/action_client_not_composable.dir/not_composable.cpp.o[0m
+[4.431s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_cancel.dir/not_composable_with_cancel.cpp.o[0m
+[4.434s] [ 37%] [32mBuilding CXX object CMakeFiles/action_client_member_functions.dir/member_functions.cpp.o[0m
+[4.492s] [ 50%] [32mBuilding CXX object CMakeFiles/action_client_not_composable_with_feedback.dir/not_composable_with_feedback.cpp.o[0m
+[19.381s] [ 62%] [32m[1mLinking CXX executable action_client_not_composable_with_feedback[0m
+[19.397s] [ 75%] [32m[1mLinking CXX executable action_client_not_composable[0m
+[19.684s] [ 87%] [32m[1mLinking CXX executable action_client_member_functions[0m
+[19.817s] [ 87%] Built target action_client_not_composable_with_feedback
+[19.833s] [ 87%] Built target action_client_not_composable
+[19.895s] [100%] [32m[1mLinking CXX executable action_client_not_composable_with_cancel[0m
+[20.121s] [100%] Built target action_client_member_functions
+[20.307s] [100%] Built target action_client_not_composable_with_cancel
+[21.087s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client -- -j12 -l12
+[21.258s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client
+[21.321s] -- Install configuration: ""
+[21.322s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions
+[21.322s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_member_functions" to ""
+[21.322s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable
+[21.322s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable" to ""
+[21.322s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel
+[21.323s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_cancel" to ""
+[21.323s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback
+[21.323s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/lib/examples_rclcpp_minimal_action_client/action_client_not_composable_with_feedback" to ""
+[21.323s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_action_client
+[21.323s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_action_client
+[21.324s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.sh
+[21.324s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/ament_prefix_path.dsv
+[21.324s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.sh
+[21.324s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/environment/path.dsv
+[21.324s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.bash
+[21.325s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.sh
+[21.325s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.zsh
+[21.325s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/local_setup.dsv
+[21.325s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.dsv
+[21.325s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/ament_index/resource_index/packages/examples_rclcpp_minimal_action_client
+[21.326s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig.cmake
+[21.326s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/cmake/examples_rclcpp_minimal_action_clientConfig-version.cmake
+[21.326s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_action_client/share/examples_rclcpp_minimal_action_client/package.xml
+[21.328s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_action_client

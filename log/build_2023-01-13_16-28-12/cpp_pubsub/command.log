@@ -1,0 +1,2 @@
+Invoking command in '/home/vietdh/ros2_final/build/cpp_pubsub': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/cpp_pubsub
+Invoked command in '/home/vietdh/ros2_final/build/cpp_pubsub' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/cpp_pubsub

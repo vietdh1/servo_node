@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vietdh/ros2_final/install/examples_rclpy_minimal_subscriber:/home/vietdh/ros2_final/install/examples_rclpy_minimal_service:/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher:/home/vietdh/ros2_final/install/examples_rclpy_minimal_client:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_server:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_client:/home/vietdh/ros2_final/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
+[0.042s] [35m[1mScanning dependencies of target talker[0m
+[0.054s] [ 50%] Built target test_node
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[3.624s] [100%] [32m[1mLinking CXX executable talker[0m
+[3.776s] [100%] Built target talker
+[3.798s] Invoked command in '/home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vietdh/ros2_final/install/examples_rclpy_minimal_subscriber:/home/vietdh/ros2_final/install/examples_rclpy_minimal_service:/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher:/home/vietdh/ros2_final/install/examples_rclpy_minimal_client:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_server:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_client:/home/vietdh/ros2_final/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub -- -j12 -l12
+[3.913s] Invoking command in '/home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vietdh/ros2_final/install/examples_rclpy_minimal_subscriber:/home/vietdh/ros2_final/install/examples_rclpy_minimal_service:/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher:/home/vietdh/ros2_final/install/examples_rclpy_minimal_client:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_server:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_client:/home/vietdh/ros2_final/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub
+[3.933s] -- Install configuration: ""
+[3.934s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/test_node
+[3.934s] -- Installing: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker
+[3.937s] -- Set runtime path of "/home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[3.937s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[3.937s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[3.937s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[3.938s] -- Installing: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[3.938s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[3.939s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[3.939s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[3.939s] -- Up-to-date: /home/vietdh/ros2_final/src/cpp_pubsub/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[3.940s] Invoked command in '/home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vietdh/ros2_final/install/examples_rclpy_minimal_subscriber:/home/vietdh/ros2_final/install/examples_rclpy_minimal_service:/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher:/home/vietdh/ros2_final/install/examples_rclpy_minimal_client:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_server:/home/vietdh/ros2_final/install/examples_rclpy_minimal_action_client:/home/vietdh/ros2_final/install/examples_rclpy_executors:/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/src/cpp_pubsub/build/cpp_pubsub

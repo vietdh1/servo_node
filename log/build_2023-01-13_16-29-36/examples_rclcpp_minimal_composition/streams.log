@@ -1,0 +1,98 @@
+[0.055s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition
+[0.553s] -- The C compiler identification is GNU 9.4.0
+[0.554s] -- The CXX compiler identification is GNU 9.4.0
+[0.554s] -- Check for working C compiler: /usr/bin/cc
+[0.554s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.554s] -- Detecting C compiler ABI info
+[0.554s] -- Detecting C compiler ABI info - done
+[0.554s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.555s] -- Check for working CXX compiler: /usr/bin/c++
+[0.588s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.590s] -- Detecting CXX compiler ABI info
+[0.729s] -- Detecting CXX compiler ABI info - done
+[0.753s] -- Detecting CXX compile features
+[0.754s] -- Detecting CXX compile features - done
+[0.757s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.807s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.808s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.166s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.237s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.371s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.424s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.627s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.739s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.743s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.745s] -- Looking for pthread.h
+[2.021s] -- Looking for pthread.h - found
+[2.022s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.175s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.176s] -- Looking for pthread_create in pthreads
+[2.264s] -- Looking for pthread_create in pthreads - not found
+[2.265s] -- Looking for pthread_create in pthread
+[2.369s] -- Looking for pthread_create in pthread - found
+[2.371s] -- Found Threads: TRUE  
+[2.681s] -- Found rclcpp_components: 2.4.2 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[2.770s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.925s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.929s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.932s] -- Configured cppcheck include dirs: /home/vietdh/ros2_final/examples/rclcpp/composition/minimal_composition/include
+[2.933s] -- Configured cppcheck exclude dirs and/or files: 
+[2.937s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.937s] -- Configured cpplint exclude dirs and/or files: 
+[2.939s] -- Added test 'lint_cmake' to check CMake code style
+[2.940s] -- Added test 'uncrustify' to check C / C++ code style
+[2.940s] -- Configured uncrustify additional arguments: 
+[2.940s] -- Added test 'xmllint' to check XML markup files
+[2.941s] -- Configuring done
+[2.984s] -- Generating done
+[2.995s] -- Build files have been written to: /home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition
+[3.793s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/vietdh/ros2_final/examples/rclcpp/composition/minimal_composition -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition
+[3.799s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[4.117s] [35m[1mScanning dependencies of target composition_nodes[0m
+[4.386s] [ 11%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/publisher_node.cpp.o[0m
+[4.388s] [ 22%] [32mBuilding CXX object CMakeFiles/composition_nodes.dir/src/subscriber_node.cpp.o[0m
+[21.243s] [ 33%] [32m[1mLinking CXX shared library libcomposition_nodes.so[0m
+[21.917s] [ 33%] Built target composition_nodes
+[21.936s] [35m[1mScanning dependencies of target composition_subscriber[0m
+[21.938s] [35m[1mScanning dependencies of target composition_composed[0m
+[21.939s] [35m[1mScanning dependencies of target composition_publisher[0m
+[22.013s] [ 44%] [32mBuilding CXX object CMakeFiles/composition_subscriber.dir/src/standalone_subscriber.cpp.o[0m
+[22.014s] [ 55%] [32mBuilding CXX object CMakeFiles/composition_publisher.dir/src/standalone_publisher.cpp.o[0m
+[22.023s] [ 66%] [32mBuilding CXX object CMakeFiles/composition_composed.dir/src/composed.cpp.o[0m
+[24.863s] [ 77%] [32m[1mLinking CXX executable composition_publisher[0m
+[24.912s] [ 88%] [32m[1mLinking CXX executable composition_composed[0m
+[25.054s] [100%] [32m[1mLinking CXX executable composition_subscriber[0m
+[25.081s] [100%] Built target composition_publisher
+[25.151s] [100%] Built target composition_composed
+[25.245s] [100%] Built target composition_subscriber
+[25.257s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition -- -j12 -l12
+[25.293s] Invoking command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition
+[25.303s] -- Install configuration: ""
+[25.303s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.sh
+[25.303s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/library_path.dsv
+[25.304s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so
+[25.307s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/libcomposition_nodes.so" to ""
+[25.307s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher
+[25.307s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_publisher" to ""
+[25.308s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber
+[25.308s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_subscriber" to ""
+[25.308s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed
+[25.309s] -- Set runtime path of "/home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/lib/examples_rclcpp_minimal_composition/composition_composed" to ""
+[25.309s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_minimal_composition
+[25.309s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_minimal_composition
+[25.309s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.sh
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/ament_prefix_path.dsv
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.sh
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/environment/path.dsv
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.bash
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.sh
+[25.310s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.zsh
+[25.311s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/local_setup.dsv
+[25.311s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.dsv
+[25.311s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/ament_index/resource_index/packages/examples_rclcpp_minimal_composition
+[25.311s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig.cmake
+[25.311s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/cmake/examples_rclcpp_minimal_compositionConfig-version.cmake
+[25.312s] -- Installing: /home/vietdh/ros2_final/install/examples_rclcpp_minimal_composition/share/examples_rclcpp_minimal_composition/package.xml
+[25.314s] Invoked command in '/home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/vietdh/ros2_final/build/examples_rclcpp_minimal_composition

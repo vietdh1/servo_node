@@ -1,0 +1,45 @@
+[3.374s] Invoking command in '/home/vietdh/ros2_final/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[3.960s] running egg_info
+[3.961s] creating ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info
+[3.962s] writing ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.962s] writing dependency_links to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.963s] writing entry points to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.963s] writing requirements to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.963s] writing top-level names to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.966s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.057s] reading manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.058s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[4.059s] running build
+[4.059s] running build_py
+[4.059s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build
+[4.059s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib
+[4.060s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.060s] copying examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.060s] copying examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.061s] copying examples_rclpy_minimal_publisher/__init__.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.061s] copying examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher
+[4.061s] running install
+[4.062s] running install_lib
+[4.064s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[4.065s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_local_function.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[4.065s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_old_school.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[4.065s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/__init__.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[4.066s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build/lib/examples_rclpy_minimal_publisher/publisher_member_function.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher
+[4.066s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_local_function.py to publisher_local_function.cpython-38.pyc
+[4.069s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_old_school.py to publisher_old_school.cpython-38.pyc
+[4.070s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/__init__.py to __init__.cpython-38.pyc
+[4.070s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[4.071s] running install_data
+[4.072s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/share/ament_index
+[4.072s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index
+[4.072s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.073s] copying resource/examples_rclpy_minimal_publisher -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages
+[4.073s] copying package.xml -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher
+[4.073s] running install_egg_info
+[4.076s] Copying ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[4.078s] running install_scripts
+[4.116s] Installing publisher_local_function script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.116s] Installing publisher_member_function script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.116s] Installing publisher_old_school script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[4.117s] writing list of installed files to '/home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/install.log'
+[4.155s] Invoked command in '/home/vietdh/ros2_final/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_publisher --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

@@ -1,0 +1,26 @@
+[1.341s] Invoking command in '/home/vietdh/ros2_final/examples/rclpy/executors': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/vietdh/ros2_final/build/examples_rclpy_executors/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_executors --record /home/vietdh/ros2_final/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[2.227s] running egg_info
+[2.227s] writing ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[2.227s] writing dependency_links to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[2.228s] writing entry points to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[2.228s] writing requirements to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[2.228s] writing top-level names to ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[2.228s] reading manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.228s] writing manifest file '../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[2.228s] running build
+[2.229s] running build_py
+[2.229s] running install
+[2.229s] running install_lib
+[2.229s] running install_data
+[2.230s] running install_egg_info
+[2.230s] removing '/home/vietdh/ros2_final/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info' (and everything under it)
+[2.231s] Copying ../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/python3.8/site-packages/examples_rclpy_executors-0.9.4-py3.8.egg-info
+[2.231s] running install_scripts
+[2.231s] Installing callback_group script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] Installing composed script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] Installing custom_callback_group script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] Installing custom_executor script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] Installing listener script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] Installing talker script to /home/vietdh/ros2_final/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[2.231s] writing list of installed files to '/home/vietdh/ros2_final/build/examples_rclpy_executors/install.log'
+[2.442s] Invoked command in '/home/vietdh/ros2_final/examples/rclpy/executors' returned '0': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_executors/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/examples_rclpy_executors build --build-base /home/vietdh/ros2_final/build/examples_rclpy_executors/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_executors --record /home/vietdh/ros2_final/build/examples_rclpy_executors/install.log --single-version-externally-managed

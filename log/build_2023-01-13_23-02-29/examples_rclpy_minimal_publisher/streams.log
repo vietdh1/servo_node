@@ -1,0 +1,23 @@
+[1.573s] Invoking command in '/home/vietdh/servo_node/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/vietdh/servo_node/build/examples_rclpy_minimal_publisher/build install --prefix /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher --record /home/vietdh/servo_node/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[1.754s] running egg_info
+[1.755s] writing ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[1.755s] writing dependency_links to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[1.755s] writing entry points to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[1.755s] writing requirements to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[1.755s] writing top-level names to ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[1.785s] reading manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.785s] writing manifest file '../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[1.786s] running build
+[1.786s] running build_py
+[1.786s] running install
+[1.786s] running install_lib
+[1.787s] running install_data
+[1.787s] running install_egg_info
+[1.788s] removing '/home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info' (and everything under it)
+[1.788s] Copying ../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages/examples_rclpy_minimal_publisher-0.9.4-py3.8.egg-info
+[1.791s] running install_scripts
+[1.803s] Installing publisher_local_function script to /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.803s] Installing publisher_member_function script to /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.803s] Installing publisher_old_school script to /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[1.805s] writing list of installed files to '/home/vietdh/servo_node/build/examples_rclpy_minimal_publisher/install.log'
+[1.820s] Invoked command in '/home/vietdh/servo_node/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/vietdh/servo_node/install/examples_rclpy_minimal_publisher/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_publisher build --build-base /home/vietdh/servo_node/build/examples_rclpy_minimal_publisher/build install --prefix /home/vietdh/servo_node/install/examples_rclpy_minimal_publisher --record /home/vietdh/servo_node/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

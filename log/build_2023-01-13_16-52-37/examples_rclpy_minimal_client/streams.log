@@ -1,0 +1,24 @@
+[2.271s] Invoking command in '/home/vietdh/ros2_final/examples/rclpy/services/minimal_client': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_client build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_client/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_client --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed
+[2.663s] running egg_info
+[2.663s] writing ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/PKG-INFO
+[2.664s] writing dependency_links to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/dependency_links.txt
+[2.664s] writing entry points to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/entry_points.txt
+[2.664s] writing requirements to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/requires.txt
+[2.665s] writing top-level names to ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/top_level.txt
+[2.725s] reading manifest file '../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.727s] writing manifest file '../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info/SOURCES.txt'
+[2.727s] running build
+[2.728s] running build_py
+[2.728s] running install
+[2.730s] running install_lib
+[2.733s] running install_data
+[2.733s] running install_egg_info
+[2.737s] removing '/home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info' (and everything under it)
+[2.737s] Copying ../../../../build/examples_rclpy_minimal_client/examples_rclpy_minimal_client.egg-info to /home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/python3.8/site-packages/examples_rclpy_minimal_client-0.9.4-py3.8.egg-info
+[2.739s] running install_scripts
+[2.769s] Installing client script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.769s] Installing client_async script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.769s] Installing client_async_callback script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.770s] Installing client_async_member_function script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/examples_rclpy_minimal_client
+[2.770s] writing list of installed files to '/home/vietdh/ros2_final/build/examples_rclpy_minimal_client/install.log'
+[2.832s] Invoked command in '/home/vietdh/ros2_final/examples/rclpy/services/minimal_client' returned '0': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_client/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_client build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_client/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_client --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_client/install.log --single-version-externally-managed

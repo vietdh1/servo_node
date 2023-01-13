@@ -1,0 +1,4 @@
+[01m[K/home/vietdh/ros2_final/src/cpp_pubsub/src/test_publisher.cpp:[m[K In member function ‘[01m[Kvoid TestPublisher::timer_callback()[m[K’:
+[01m[K/home/vietdh/ros2_final/src/cpp_pubsub/src/test_publisher.cpp:29:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kprediction[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+   29 |       [01;35m[Kprediction ++[m[K;
+      |       [01;35m[K~~~~~~~~~~~^~[m[K

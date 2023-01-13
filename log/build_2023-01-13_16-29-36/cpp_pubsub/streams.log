@@ -1,0 +1,62 @@
+[0.029s] Invoking command in '/home/vietdh/ros2_final/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vietdh/ros2_final/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/cpp_pubsub
+[0.062s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.123s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.710s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.808s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.819s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.143s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.268s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.535s] -- Found dynamixel_sdk: 3.7.40 (/home/vietdh/ros2_final/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.537s] -- Found dynamixel_sdk_custom_interfaces: 3.7.40 (/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[1.565s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.666s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.668s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.669s] -- Configured cppcheck include dirs: 
+[1.669s] -- Configured cppcheck exclude dirs and/or files: 
+[1.671s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.671s] -- Configured cpplint exclude dirs and/or files: 
+[1.672s] -- Added test 'lint_cmake' to check CMake code style
+[1.675s] -- Added test 'uncrustify' to check C / C++ code style
+[1.675s] -- Configured uncrustify additional arguments: 
+[1.676s] -- Added test 'xmllint' to check XML markup files
+[1.679s] -- Configuring done
+[1.694s] -- Generating done
+[1.696s] -- Build files have been written to: /home/vietdh/ros2_final/build/cpp_pubsub
+[1.704s] Invoked command in '/home/vietdh/ros2_final/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/vietdh/ros2_final/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/vietdh/ros2_final/install/cpp_pubsub
+[1.708s] Invoking command in '/home/vietdh/ros2_final/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vietdh/ros2_final/build/cpp_pubsub -- -j12 -l12
+[1.760s] [35m[1mScanning dependencies of target test_node[0m
+[1.760s] [35m[1mScanning dependencies of target talker[0m
+[1.812s] [ 25%] [32mBuilding CXX object CMakeFiles/test_node.dir/src/test_publisher.cpp.o[0m
+[1.815s] [ 50%] [32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o[0m
+[4.726s] [01m[K/home/vietdh/ros2_final/src/cpp_pubsub/src/test_publisher.cpp:[m[K In member function ‘[01m[Kvoid TestPublisher::timer_callback()[m[K’:
+[4.726s] [01m[K/home/vietdh/ros2_final/src/cpp_pubsub/src/test_publisher.cpp:29:18:[m[K [01;35m[Kwarning: [m[K‘[01m[Kprediction[m[K’ is used uninitialized in this function [[01;35m[K-Wuninitialized[m[K]
+[4.726s]    29 |       [01;35m[Kprediction ++[m[K;
+[4.726s]       |       [01;35m[K~~~~~~~~~~~^~[m[K
+[5.631s] [ 75%] [32m[1mLinking CXX executable test_node[0m
+[5.786s] [ 75%] Built target test_node
+[7.663s] [100%] [32m[1mLinking CXX executable talker[0m
+[7.868s] [100%] Built target talker
+[7.883s] Invoked command in '/home/vietdh/ros2_final/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vietdh/ros2_final/build/cpp_pubsub -- -j12 -l12
+[7.903s] Invoking command in '/home/vietdh/ros2_final/build/cpp_pubsub': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vietdh/ros2_final/build/cpp_pubsub
+[7.911s] -- Install configuration: ""
+[7.911s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/lib/cpp_pubsub/test_node
+[7.912s] -- Set runtime path of "/home/vietdh/ros2_final/install/cpp_pubsub/lib/cpp_pubsub/test_node" to ""
+[7.912s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/lib/cpp_pubsub/talker
+[7.913s] -- Set runtime path of "/home/vietdh/ros2_final/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[7.914s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[7.915s] -- Installing: /home/vietdh/ros2_final/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[7.920s] Invoked command in '/home/vietdh/ros2_final/build/cpp_pubsub' returned '0': AMENT_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces:/home/vietdh/ros2_final/install/dynamixel_sdk:/opt/ros/foxy LD_LIBRARY_PATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib:/home/vietdh/ros2_final/install/dynamixel_sdk/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vietdh/ros2_final/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vietdh/ros2_final/build/cpp_pubsub

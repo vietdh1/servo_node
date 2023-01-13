@@ -1,0 +1,41 @@
+[2.381s] Invoking command in '/home/vietdh/ros2_final/examples/rclpy/services/minimal_service': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_service build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_service --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[2.831s] running egg_info
+[2.832s] creating ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[2.832s] writing ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.833s] writing dependency_links to ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.833s] writing entry points to ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.833s] writing requirements to ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.834s] writing top-level names to ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.835s] writing manifest file '../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.893s] reading manifest file '../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.895s] writing manifest file '../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.895s] running build
+[2.895s] running build_py
+[2.896s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build
+[2.896s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib
+[2.896s] creating /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.896s] copying examples_rclpy_minimal_service/service.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.897s] copying examples_rclpy_minimal_service/__init__.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.897s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.897s] running install
+[2.898s] running install_lib
+[2.899s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[2.899s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[2.900s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[2.900s] copying /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service
+[2.900s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-38.pyc
+[2.902s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-38.pyc
+[2.903s] byte-compiling /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-38.pyc
+[2.903s] running install_data
+[2.904s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/share/ament_index
+[2.904s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[2.905s] creating /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.905s] copying resource/examples_rclpy_minimal_service -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.905s] copying package.xml -> /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[2.905s] running install_egg_info
+[2.908s] Copying ../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages/examples_rclpy_minimal_service-0.9.4-py3.8.egg-info
+[2.909s] running install_scripts
+[2.937s] Installing service script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.937s] Installing service_member_function script to /home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.938s] writing list of installed files to '/home/vietdh/ros2_final/build/examples_rclpy_minimal_service/install.log'
+[2.976s] Invoked command in '/home/vietdh/ros2_final/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/vietdh/ros2_final/install/examples_rclpy_minimal_service/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_service build --build-base /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/build install --prefix /home/vietdh/ros2_final/install/examples_rclpy_minimal_service --record /home/vietdh/ros2_final/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

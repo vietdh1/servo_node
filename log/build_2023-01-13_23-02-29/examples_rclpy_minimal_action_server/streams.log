@@ -1,0 +1,25 @@
+[1.558s] Invoking command in '/home/vietdh/servo_node/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_action_server build --build-base /home/vietdh/servo_node/build/examples_rclpy_minimal_action_server/build install --prefix /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server --record /home/vietdh/servo_node/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[1.738s] running egg_info
+[1.738s] writing ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[1.739s] writing dependency_links to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[1.739s] writing entry points to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[1.739s] writing requirements to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[1.739s] writing top-level names to ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[1.767s] reading manifest file '../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.768s] writing manifest file '../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[1.768s] running build
+[1.768s] running build_py
+[1.769s] running install
+[1.769s] running install_lib
+[1.771s] running install_data
+[1.771s] running install_egg_info
+[1.772s] removing '/home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info' (and everything under it)
+[1.772s] Copying ../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages/examples_rclpy_minimal_action_server-0.9.4-py3.8.egg-info
+[1.773s] running install_scripts
+[1.791s] Installing server script to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.791s] Installing server_defer script to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.791s] Installing server_not_composable script to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.792s] Installing server_queue_goals script to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.792s] Installing server_single_goal script to /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[1.792s] writing list of installed files to '/home/vietdh/servo_node/build/examples_rclpy_minimal_action_server/install.log'
+[1.808s] Invoked command in '/home/vietdh/servo_node/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/vietdh/servo_node/install/examples_rclpy_minimal_action_server/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_minimal_action_server build --build-base /home/vietdh/servo_node/build/examples_rclpy_minimal_action_server/build install --prefix /home/vietdh/servo_node/install/examples_rclpy_minimal_action_server --record /home/vietdh/servo_node/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
