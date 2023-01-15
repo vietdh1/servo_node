@@ -24,8 +24,6 @@ int angle2 = 0;
 float pi = 3.14159265359;
 float L1 = 68;
 float L2 = 38;
-//float x ;
-//float y ;  
 void inverseKinematics(float x, float y){
 float angle11 ;      
 float angle21 ;       
@@ -64,28 +62,18 @@ class MinimalPublisher : public rclcpp::Node
       std::string variable = msg->data.c_str();
       switch (variable[0]){
         case '0':
-          //angle1 = 512;
-          //angle2 = 512;
           inverseKinematics(105.9,0.00001);
           break;
         case '1':
-          //angle1 = 512;
-          //angle2 = 205;
           inverseKinematics(68,38);
           break;
         case '2':
-          //angle1 = 512;
-          //angle2 = 818;
           inverseKinematics(68,-38);
           break;
         case '3':
-          //angle1 = 358;
-          //angle2 = 512;
           inverseKinematics(74.95,74.95);
           break;
         case '4':
-          //angle1 = 665;
-          //angle2 = 512;
           inverseKinematics(74.95,-74.95);
           break;
 
